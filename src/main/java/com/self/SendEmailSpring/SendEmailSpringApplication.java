@@ -23,7 +23,7 @@ public class SendEmailSpringApplication {
 	
 	@EventListener(ApplicationReadyEvent.class)
 	public void triggerMail() throws MessagingException {
-		senderService.sendSimpleEmail("roshnikumari@gmail.com",
+		senderService.sendSimpleEmail("roshnikumari01@gmail.com",
 				"send Email by SpringBoot subject",
 			  "Hi, \n Learning to send Email by SpringBoot body. \n\n Thanks & Regards \n Roshni Kumari");
 
